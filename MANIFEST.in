@@ -1,0 +1,13 @@
+include MANIFEST.in
+include setup.py
+include config.yml
+include upstart.sh
+include Makefile
+include README.md
+include LICENSE
+include requirements.txt
+
+#recursive-include bootstrap *.py
+recursive-include data *.txt
+
+prune *.pyc
